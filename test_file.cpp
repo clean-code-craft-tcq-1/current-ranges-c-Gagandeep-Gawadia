@@ -8,7 +8,7 @@ TEST_CASE("Input valid") {
   
   int current_data[] = {3,3,5,10,12,11};
   int data_size = sizeof(current_data)/sizeof(current_data[0]);
-  Boolean valid_input = validateReading(current_data, data_size);
+  Bool valid_input = validateReading(current_data, data_size);
   
-  REQUIRE(valid_input == true);
+  REQUIRE(valid_input == TRUE);
 }

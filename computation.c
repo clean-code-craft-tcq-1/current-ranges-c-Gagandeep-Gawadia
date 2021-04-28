@@ -3,11 +3,11 @@
 
 Bool valid_flag validateReading(int * input_set , int size)
  { 
-   Bool readingisvalid = true;
+   Bool readingisvalid = TRUE;
    
    if(size == 0)
    { 
-    readingisvalid = false;
+    readingisvalid = FALSE;
    } 
   return readingisvalid;
  }

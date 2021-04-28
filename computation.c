@@ -1,10 +1,13 @@
- Boolean valid_flag validateReading(int * input_set , int size)
+#include "computation.h"
+#include <stdio.h> 
+
+Bool valid_flag validateReading(int * input_set , int size)
  { 
-   int readingisvalid = 1;
+   Bool readingisvalid = true;
    
    if(size == 0)
    { 
-    readingisvalid = 0;
+    readingisvalid = false;
    } 
- 
+  return readingisvalid;
  }

@@ -4,4 +4,4 @@ typedef enum
   TRUE
 } Bool;
 
-Bool valid_flag validateReading(int * input_set , int size);
+Bool validateReading(int * input_set , int size);

@@ -53,4 +53,4 @@ Adapt/adopt/extend the `yml` files from one of your workflow folders.
 Implement one failing test and at least one passing test:
 
 - validateReading the name of a **passing** test
-- _enter the name of a **failing** test
+- ReadingInRange the name of a **failing** test
